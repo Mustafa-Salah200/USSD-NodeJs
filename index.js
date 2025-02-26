@@ -49,5 +49,6 @@ app.post("/ussd", (req, res) => {
 
   // Send the response back to the API
   res.set("Content-Type: text/plain");
+   console.log(text);
   res.send(response);
 });
